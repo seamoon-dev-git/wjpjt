@@ -21,17 +21,20 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <executions>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+                <!--<executions>
                     <execution>
                         <goals>
-                            <!-- Disable repackage goal by default -->
+                            &lt;!&ndash; Disable repackage goal by default &ndash;&gt;
                             <goal>repackage</goal>
                         </goals>
                         <configuration>
                             <skip>true</skip>
                         </configuration>
                     </execution>
-                </executions>
+                </executions>-->
             </plugin>
         </plugins>
     </build>
