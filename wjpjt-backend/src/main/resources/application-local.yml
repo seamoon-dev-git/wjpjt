@@ -1,0 +1,5 @@
+### 로그 설정
+logging:
+  file:
+    path: /Users/seamoon/dev/workspace/upload/logs/wjpjt/
+    name: wjpjt-backend-local
