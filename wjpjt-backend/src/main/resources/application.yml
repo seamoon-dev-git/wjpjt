@@ -1,3 +1,13 @@
 #포트 설정
 server:
   port: 9001
+
+spring:
+  profiles:
+    group:
+      development: common, common-local, local
+      quality: common, common-qas, qas
+      production: common, common-prd, prd
+
+test:
+  key: applicatoin
